@@ -1,9 +1,15 @@
 {
-  "name": "New Tab Extension",
+  "name": "Minimal Ecosia",
   "version": "1.0.0",
   "manifest_version": 2,
-  "description": "This is a description.",
+  "description": "A minimal, cleaner version of Ecosia's (https://ecosia.org) New Tab Chrome Extension.",
+  "homepage_url": "https://ecosia.org",
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
   "chrome_url_overrides": {
-    "newtab": "src/index.html"
+    "newtab": "src/ecosia.html"
   }
 }
